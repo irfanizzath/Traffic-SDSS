@@ -1,5 +1,22 @@
 # Real-Time Traffic Signal Decision Support System Using Google Maps API in Dubai
 
-<img width="1762" height="104" alt="image" src="https://github.com/user-attachments/assets/37576427-0044-4f9c-876f-311aa56cf679" />
+This project provides a **real-time traffic signal decision support system** using the Google Maps API. It calculates traffic delays from multiple origin points to a target intersection in Dubai and visualizes congestion levels to aid traffic management and decision-making.
 
-Real-Time Traffic Signal Decision Support System Using Google Maps API in Dubai
+---
+
+## Features
+
+- Fetches real-time traffic data from Google Maps for multiple origin points.
+- Calculates:
+  - Estimated travel time
+  - Travel time in current traffic
+  - Traffic delay
+- Categorizes congestion levels with intuitive traffic indicators:
+  - 🟢 Light traffic
+  - 🟠 Moderate traffic
+  - 🔴 Heavy traffic
+  - 🚦 Very heavy congestion
+- Visualizes traffic delays with a color-coded horizontal bar chart for easy interpretation.
+
+---
+
