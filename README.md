@@ -18,7 +18,7 @@ This project provides a **real-time traffic signal decision support system** usi
   - 🚦 Very heavy congestion
 - Visualizes traffic delays with a color-coded horizontal bar chart for easy interpretation.
 
-<img width="1830" height="829" alt="image" src="https://github.com/user-attachments/assets/6297169a-fa97-4da7-bc64-84283533024e" />
+![Traffic SDS](https://github.com/user-attachments/assets/68f65cb0-e85c-441a-8b0c-1109d281b9ab)
 
 ---
 
