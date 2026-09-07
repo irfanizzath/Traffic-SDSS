@@ -22,3 +22,44 @@ This project provides a **real-time traffic signal decision support system** usi
 
 ---
 
+## Local Interactive Build (Simulated Data, No API Needed)
+
+Because API quota may be unavailable, this repository now includes a **local Python interactive app** that uses **simulated traffic data** built from the same approach names and coordinates.
+
+### Data points used
+
+- Approach/route name  
+- Origin/destination coordinates  
+- Estimated travel time  
+- Travel time in current traffic (simulated)  
+- Timestamp/day/time-of-day  
+
+Derived fields:
+- Traffic delay
+- Congestion level
+- Fuzzy priority score
+- Recommended green extension (seconds)
+
+### Fixed approach names used in simulation
+
+- 2nd December St from Etihad Museum
+- 2nd December St from Satwa
+- From Al Mina St
+- Al Wasl St (In)
+
+### Run locally
+
+```bash
+python -m pip install -r /home/runner/work/Traffic-SDSS/Traffic-SDSS/requirements.txt
+streamlit run /home/runner/work/Traffic-SDSS/Traffic-SDSS/streamlit_app.py
+```
+
+### Dubai font
+
+The app UI is configured to prefer **Dubai** font:
+
+```text
+font-family: "Dubai", "Dubai Regular", "Segoe UI", sans-serif
+```
+
+If Dubai is installed on your system, it will be used automatically.
